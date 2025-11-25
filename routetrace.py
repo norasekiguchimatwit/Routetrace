@@ -87,7 +87,7 @@ def main():
     print(f"{'TTL':<5} {'PacketSize':<12} {'Responding Router':<20}")
     print("-" * 45)
 
-    for size_step in range(1, 5):  # Your original loop: 4 size groups
+    for size_step in range(1, 5):  # 4 size groups
         prev_router = None
         destination_router = None
 
@@ -137,3 +137,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
